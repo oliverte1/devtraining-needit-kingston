@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Days Ago Date">4597d714dbf22300a4c2e04a48961956</action_type>
+        <comment>Get Overdue date using property value</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Find and Close Long Overdue NeedIt Tasks">aacbc085db322300a4c2e04a489619c0</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-02 15:29:35</sys_created_on>
+        <sys_id>d0e3dc89db322300a4c2e04a4896193c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_action_instance_d0e3dc89db322300a4c2e04a4896193c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-02 15:29:36</sys_updated_on>
+        <ui_id>bc7fb485-0a3a-4e6f-820c-2ebc0dd8afff</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d0e3dc89db322300a4c2e04a4896193c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d0e3dc89db322300a4c2e04a4896193c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-02 15:29:36</sys_created_on>
+        <sys_id>d0e3dc89db322300a4c2e04a489619a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-02 15:29:36</sys_updated_on>
+        <value/>
+        <variable display_value="">8d97d714dbf22300a4c2e04a48961958</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d0e3dc89db322300a4c2e04a4896193c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-02 15:29:35</sys_created_on>
+        <sys_id>d4e3dc89db322300a4c2e04a4896194b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-02 15:29:35</sys_updated_on>
+        <value/>
+        <variable display_value="">ff371714dbf22300a4c2e04a48961909</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d0e3dc89db322300a4c2e04a4896193c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_days_ago</field>
+        <id>d0e3dc89db322300a4c2e04a4896193c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-02 15:29:36</sys_created_on>
+        <sys_id>50e3dc89db322300a4c2e04a489619a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-02 15:29:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_4597d714dbf22300a4c2e04a48961956</table>
+        <value>{{8acc241c-4d58-4dc6-9189-33bd43235a75.property_value}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_days_ago</field>
+        <id>d0e3dc89db322300a4c2e04a4896193c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-02 15:29:35</sys_created_on>
+        <sys_id>54e3dc89db322300a4c2e04a4896194b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-02 15:29:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a31693d0dbf22300a4c2e04a4896197e</table>
+        <value>{{8acc241c-4d58-4dc6-9189-33bd43235a75.property_value}}</value>
+    </sys_element_mapping>
+</record_update>
